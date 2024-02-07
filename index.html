@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li>MyTicTacToe.com</li>
+        </ul>
+    </nav>
+    
+    <div class="gameContainer">
+      <div class="line"></div>
+      <div class="container">
+        <div id="boxItem" class="boxItem border-top-none border-left-none"></div>
+        <div id="boxItem" class="boxItem border-top-none"></div>
+        <div id="boxItem" class="boxItem border-top-none border-right-none"></div>
+        <div id="boxItem" class="boxItem border-left-none"></div>
+        <div id="boxItem" class="boxItem"></div>
+        <div id="boxItem" class="boxItem border-right-none"></div>
+        <div id="boxItem" class="boxItem border-bottom-none border-left-none"></div>
+        <div id="boxItem" class="boxItem border-bottom-none"></div>
+        <div id="boxItem" class="boxItem border-bottom-none border-right-none"></div>
+      </div>
+      <div class="gameInfo">
+        <div class="title">
+          Welcome to TicTacToe
+        </div>
+        <div class="turnInfo">
+          <div id="text">Turn for X</div>
+          <div class="resetButton"><button>Reset</button></div>
+        </div>
+        <div class="winAnimation">
+          <img src="./sources/excited.gif" alt="winAnimation" width="0px">
+        </div>
+      </div>
+    </div>    
+    
+<script src="script.js"></script>
+</body>
+</html>
